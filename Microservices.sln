@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API", "Services\ContactAPI\Contact.API\Contact.API.csproj", "{1B75B10E-17B8-44AD-A685-F9F00D4C2537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.API", "Services\RestAPI\Reservation.API\Reservation.API.csproj", "{B7517365-C145-4CB6-A67D-A80C6E0C9767}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{1B75B10E-17B8-44AD-A685-F9F00D4C2537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B75B10E-17B8-44AD-A685-F9F00D4C2537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B75B10E-17B8-44AD-A685-F9F00D4C2537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7517365-C145-4CB6-A67D-A80C6E0C9767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7517365-C145-4CB6-A67D-A80C6E0C9767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7517365-C145-4CB6-A67D-A80C6E0C9767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7517365-C145-4CB6-A67D-A80C6E0C9767}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1B75B10E-17B8-44AD-A685-F9F00D4C2537} = {B2477F9E-3915-486B-98E4-6339D4BFD13D}
+		{B7517365-C145-4CB6-A67D-A80C6E0C9767} = {B2477F9E-3915-486B-98E4-6339D4BFD13D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C465159F-9C17-4313-B342-D878C2C9C09F}
