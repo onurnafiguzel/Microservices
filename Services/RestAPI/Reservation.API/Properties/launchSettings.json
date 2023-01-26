@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:9001",
+      "applicationUrl": "http://localhost:7000",
       "sslPort": 44339
     }
   },
@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "/api/res/1",
+      "launchUrl": "api/res/1",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,8 +20,8 @@
     "Reservation.API": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
-     // "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "launchUrl": "api/res/1",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
