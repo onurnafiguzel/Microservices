@@ -1,12 +1,16 @@
 {
-  "DownstreamPathTemplate": "/api/res/{id}",
-  "DownstreamScheme": "http",
-  "DownstreamHostAndPorts": [
+  "Routes": [
     {
-      "Host": "localhost",
-      "Port": 9001
+        "DownstreamPathTemplate": "/api/res/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 9001
+          }
+        ],
+        "UpstreamPathTemplate": "/r/{id}",
+        "UpstreamHttpMethod": [ "Get" ]
     }
-  ],
-  "UpstreamPathTemplate": "/r/{id}",
-  "UpstreamHttpMethod": [ "Get" ]
+  ]
 }
